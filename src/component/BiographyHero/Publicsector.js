@@ -3,12 +3,13 @@ import React from 'react'
 const Publicsector = () => {
   return (
     <div>
+      <br />
+<br />
+<br />
         <section className="portfolio" aria-labelledby="portfolio-label">
   <div className="title-wrapper container">
     <div>
-<br />
-<br />
-<br />
+
       <h2 className="h2 section-title">Public Service</h2>
     </div>
     <p className="section-text">
@@ -151,7 +152,9 @@ const Publicsector = () => {
     </div>
   </div>
 </section>
-
+<br />
+<br />
+<br />
     </div>
   )
 }
