@@ -1,16 +1,17 @@
 import React from 'react'
-
+import myImage from "./images/earlylife.png"
+import Previousposition from './Previousposition'
 
 const Earlylife = () => {
   return (
 
     <div>
-        <section className="section skills" aria-label="our skills">
+<section className="section skills" aria-label="our skills">
   <div className="container">
     <p className="section-subtitle">Early Life</p>
     <div className="skills-wrapper">
       <div className="divside d-column fixedtop">
-        <img src="assets/images/earlylife.png" alt="" />
+        <img src={myImage} alt="" />
         <a href="mailto:info@Williebiano.com" className="btn has-before">
           info@Williebiano.com
         </a>
@@ -42,6 +43,9 @@ const Earlylife = () => {
     </div>
   </div>
 </section>
+
+<Previousposition />
+
 
     </div>
 

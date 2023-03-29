@@ -5,6 +5,7 @@ import Earlylife from './Earlylife'
 
 
 
+
 const Biographyhero = () => {
   return (
     <Layout>
