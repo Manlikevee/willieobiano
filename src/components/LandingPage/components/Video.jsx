@@ -6,7 +6,7 @@ function Video({ image, buttonImg, title, text }) {
       <div className="video">
         <div className="img">
           <img src={image} alt="" />
-          <a href="#">
+          <a href="javascript:void(0)">
             <img className="playButton" src={buttonImg} alt="" />
           </a>
         </div>

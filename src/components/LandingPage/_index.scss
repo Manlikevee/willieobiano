@@ -226,7 +226,7 @@ main {
         h3 {
           font-style: normal;
           font-weight: 600;
-          font-size: 32px;
+          font-size: 30px;
           margin: 20px 0px;
           line-height: 34px;
         }
@@ -255,7 +255,7 @@ main {
     background-size: cover;
     padding: 260px 0px;
     // background-attachment: fixed;
-    background-position: top left;
+    background-position:  top left;
     background-repeat: no-repeat;
     color: white;
     margin-bottom: 40px;
@@ -267,7 +267,7 @@ main {
     }
     .info {
       font-family: $jakarta;
-      width: 65%;
+      width: 60%;
       margin-left: auto;
 
       @media screen and (max-width: 768px) {
