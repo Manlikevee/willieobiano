@@ -44,7 +44,7 @@ const Earlylife = () => {
   </div>
 </section>
 
-<Previousposition />
+
 
 
     </div>
