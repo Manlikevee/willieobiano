@@ -7,6 +7,7 @@ import LandingPage from "../compiledPage/LandingPage";
 
 
 
+
 const IndexPage = () => {
   return (
     // <Layout>
