@@ -13,9 +13,7 @@ const Publicsector = () => {
       <h2 className="h2 section-title">Public Service</h2>
     </div>
     <p className="section-text">
-      Phasellus et lacus suscipit congue nisl the volutpat magna. donec miss the
-      drana risus tincidunt convallis velit orci congue tortor eu dignissim
-      ipsum suam non odio. Pellenta esuntion miss the imperdiet metus ornare.
+    The leadership of Willie Obiano made notable strides in delivering public services that enhanced the quality of life for residents of Anambra State. His work helped the state expand and prosper while also creating a strong foundation for further expansion.
     </p>
   </div>
   <div className="slider" data-slider="">
