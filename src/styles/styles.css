@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0pc;
+  box-sizing: border-box;
+}
+
+.swiper {
+  overflow: visible;
+}
+.swiper .swiper-pagination {
+  text-align: right;
+}
+.swiper .swiper-pagination-bullet {
+  background: #bdbbbb;
+  border-radius: 10px;
+  height: 5px;
+  width: 60px;
+}
+.swiper .swiper-pagination-bullet-active {
+  background: #18181b;
+}
+
+.swiper-slide {
+  padding: 20px;
+}
+
+main {
+  background: url(https://github.com/Cruxcodes/images-repository/blob/main/Group%2064.png?raw=true);
+  background-size: cover;
+  background-position: right bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+  height: 100vh;
+}
+@media screen and (max-width: 1024px) {
+  main {
+    background-size: cover;
+    background-position: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  main {
+    background-size: cover;
+    background-position: 80%;
+  }
+}
+@media screen and (max-width: 450px) {
+  main {
+    text-align: center;
+  }
+}
+main .profile {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+main .profile div {
+  width: 60%;
+}
+@media screen and (max-width: 768px) {
+  main .profile div {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  main .profile div {
+    width: 100%;
+  }
+}
+main .profile div h5 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+main .profile div h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 69px;
+  margin: 20px 0px;
+}
+@media screen and (max-width: 600px) {
+  main .profile div h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+main .profile div p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  width: 85%;
+}
+@media screen and (max-width: 500px) {
+  main .profile div p {
+    width: 100%;
+  }
+}
+
+.testimonial {
+  background: url(https://github.com/Cruxcodes/images-repository/blob/main/Group%2020.png?raw=true);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+  padding: 250px 0px;
+}
+@media screen and (max-width: 768px) {
+  .testimonial {
+    padding: 100px 0px;
+  }
+}
+.testimonial .comment {
+  position: relative;
+  font-family: "Inter", sans-serif;
+  padding: 30px 0px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  font-size: 32px;
+  color: #18181b;
+}
+@media screen and (max-width: 768px) {
+  .testimonial .comment {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .testimonial .comment {
+    font-size: 20px;
+  }
+}
+.testimonial .comment::before {
+  position: absolute;
+  content: url(https://github.com/Cruxcodes/images-repository/blob/main/tick.png?raw=true);
+  top: -4%;
+  left: -2%;
+}
+.testimonial .comment::after {
+  position: absolute;
+  content: url(https://github.com/Cruxcodes/images-repository/blob/main/backtick.png?raw=true);
+  bottom: -15%;
+  right: 2%;
+}
+.testimonial .person .infoBody {
+  display: flex;
+  gap: 20px;
+  margin: 30px 0px;
+  align-items: center;
+}
+.testimonial .person .infoBody img {
+  width: 60px;
+  height: 60px;
+}
+.testimonial .person .infoBody .info {
+  margin: 20px 0px;
+}
+
+.videoSection {
+  background: url("https://github.com/Cruxcodes/images-repository/blob/main/BG%20(1).png?raw=true");
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-size: cover;
+  padding: 100px 0px;
+  color: white;
+}
+.videoSection .videoContainer {
+  display: grid;
+  margin: 30px auto;
+  grid-template-columns: 700px 700px 700px 700px;
+  grid-template-rows: 1fr;
+  color: white;
+  gap: 30px;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .videoSection .videoContainer {
+    grid-template-columns: 500px 500px 500px 500px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .videoSection .videoContainer {
+    grid-template-columns: 400px 400px 400px 400px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .videoSection .videoContainer {
+    grid-template-columns: 300px 300px 300px 300px;
+  }
+}
+.videoSection .videoContainer .swiper-button-next:after {
+  color: white;
+}
+.videoSection .videoContainer .swiper-button-prev:after {
+  opacity: 0;
+}
+.videoSection .videoContainer .blur {
+  z-index: 3;
+  position: absolute;
+  height: 95%;
+  width: 70px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.288);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  right: 0px;
+}
+@media screen and (max-width: 500px) {
+  .videoSection .videoContainer .blur {
+    width: 50px;
+    -webkit-backdrop-filter: none;
+            backdrop-filter: none;
+  }
+}
+.videoSection .videoContainer .video .img {
+  position: relative;
+}
+.videoSection .videoContainer .video .img .playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70px;
+  border-radius: 50%;
+  height: 70px;
+  transition: 0.5s;
+}
+.videoSection .videoContainer .video .img .playButton:hover {
+  box-shadow: 0px 24px 50px rgba(90, 90, 90, 0.849), 0px -24px 50px rgba(182, 182, 182, 0.938);
+  transform-origin: center;
+  width: 80px;
+  height: 80px;
+}
+.videoSection .videoContainer .video .img img {
+  width: 100%;
+}
+.videoSection .videoContainer .video .info {
+  margin: 30px 0px;
+}
+.videoSection .videoContainer .video .info h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  margin: 20px 0px;
+  line-height: 34px;
+}
+.videoSection .videoContainer .video .info p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+@media screen and (max-width: 500px) {
+  .videoSection .videoContainer .video .info h3 {
+    font-size: 20px;
+  }
+  .videoSection .videoContainer .video .info p {
+    font-size: 16px;
+  }
+}
+
+.sec_twitter .section {
+  background-image: url(https://github.com/Cruxcodes/images-repository/blob/main/secondBg.png?raw=true);
+  background-size: cover;
+  padding: 260px 0px;
+  background-position: top left;
+  background-repeat: no-repeat;
+  color: white;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 768px) {
+  .sec_twitter .section {
+    background-position: 10%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .sec_twitter .section {
+    background-position: 20%;
+  }
+}
+.sec_twitter .section .info {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  width: 65%;
+  margin-left: auto;
+}
+@media screen and (max-width: 768px) {
+  .sec_twitter .section .info {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  .sec_twitter .section .info {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .sec_twitter .section .info {
+    text-align: center;
+  }
+}
+.sec_twitter .section .info h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 150%;
+}
+@media screen and (max-width: 500px) {
+  .sec_twitter .section .info h3 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .sec_twitter .section .info h3 {
+    font-size: 25px;
+  }
+}
+.sec_twitter .section .info p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 40px 0px;
+  line-height: 150%;
+}
+@media screen and (max-width: 500px) {
+  .sec_twitter .section .info p {
+    font-size: 20px;
+  }
+}
+.sec_twitter .twitter {
+  position: relative;
+  top: -120px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0px 2px 20px gray;
+  padding: 0px;
+}
+.sec_twitter .twitter .top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #000;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 568px) {
+  .sec_twitter .twitter .top {
+    flex-direction: column;
+  }
+}
+.sec_twitter .twitter .top div {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.sec_twitter .twitter .top a {
+  color: white;
+  background-image: linear-gradient(45deg, #44b0ff, #44b0ff, white, white);
+  transition: 0.5s;
+  background-size: 250%;
+  padding: 5px 30px;
+  border-radius: 30px;
+}
+.sec_twitter .twitter .top a:hover {
+  background-position: 100%;
+  color: #44b0ff;
+  box-shadow: 2px 2px 20px #bdbbbb;
+}
+@media screen and (max-width: 400px) {
+  .sec_twitter .twitter .top a {
+    text-align: center;
+  }
+}
+.sec_twitter .twitter .bottom {
+  padding: 50px 60px 90px;
+  background: url("https://github.com/Cruxcodes/images-repository/blob/main/Mask%20group%20(1).png?raw=true");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top left;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 760px) {
+  .sec_twitter .twitter .bottom {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+}
+.sec_twitter .twitter .bottom img {
+  width: 30%;
+}
+@media screen and (max-width: 760px) {
+  .sec_twitter .twitter .bottom img {
+    width: 100%;
+    margin: 20px 0px;
+  }
+}/*# sourceMappingURL=styles.css.map */
