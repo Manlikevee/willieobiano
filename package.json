@@ -15,10 +15,13 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@ionic/core": "^6.7.1",
+    "@ionic/react": "^6.7.1",
     "gatsby": "^5.8.0",
     "gatsby-plugin-google-analytics": "^5.8.0",
     "gatsby-plugin-manifest": "^5.8.0",
     "gatsby-plugin-sitemap": "^6.8.0",
+    "ionicons": "^7.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
