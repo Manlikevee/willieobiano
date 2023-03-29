@@ -28,14 +28,8 @@ const Layout = ({ children }) => {
       )}
   
 <Header />
-  <main>
-    <article>
 
-      {children}
-
-      </article>
-</main>
-
+{children}
 <Footer/>
     </>
   )
