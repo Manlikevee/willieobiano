@@ -27,7 +27,7 @@
 
 main {
   // background-image: url(../../images/Group\ 64.png);
-  background: url(https://github.com/Cruxcodes/images-repository/blob/main/Group%2064.png?raw=true);
+  background: url(../images/background.png);
   background-size: cover;
   background-position: right bottom;
   background-attachment: fixed;
@@ -39,14 +39,14 @@ main {
     background-position: 90%;
   }
   @media screen and (max-width: 768px) {
+    background-image: linear-gradient(
+        45deg,
+        rgba(36, 34, 34, 0.767),
+        rgba(36, 34, 34, 0.856)
+      ),
+      url(../images/background.png);
     background-size: cover;
     background-position: 80%;
-    background: rgb(42 42 42 / 70%) url(https://github.com/Cruxcodes/images-repository/blob/main/Group%2064.png?raw=true);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    background-blend-mode: darken;
-    background-blend-mode: darken;
   }
   @media screen and (max-width: 450px) {
     text-align: center;
@@ -99,7 +99,7 @@ main {
 }
 
 .testimonial {
-  background: url(https://github.com/Cruxcodes/images-repository/blob/main/Group%2020.png?raw=true);
+  background: url(../images/Group\ 20.png);
   background-repeat: no-repeat;
   background-position: right top;
   background-size: cover;
@@ -123,18 +123,21 @@ main {
       font-size: 26px;
     }
     @media screen and (max-width: 480px) {
-      font-size: 20px;
+      font-size: 16px;
     }
     &::before {
       position: absolute;
-      content: url(https://github.com/Cruxcodes/images-repository/blob/main/tick.png?raw=true);
+      content: url(../images/“.png);
       top: -4%;
       left: -2%;
+      @media screen and (max-width: 480px) {
+        top: -10%;
+      }
     }
 
     &::after {
       position: absolute;
-      content: url(https://github.com/Cruxcodes/images-repository/blob/main/backtick.png?raw=true);
+      content: url("../images/“\ \(1\).png");
       bottom: -15%;
       right: 2%;
     }
@@ -157,7 +160,7 @@ main {
 }
 
 .videoSection {
-  background: url("https://github.com/Cruxcodes/images-repository/blob/main/BG%20(1).png?raw=true");
+  background: url("../images/BG\ \(1\).png");
   font-family: $jakarta;
   background-size: cover;
   padding: 100px 0px;
@@ -257,15 +260,21 @@ main {
 
 .sec_twitter {
   .section {
-    background-image: url(https://github.com/Cruxcodes/images-repository/blob/main/secondBg.png?raw=true);
+    background-image: url(../images/secondBg.png);
     background-size: cover;
     padding: 260px 0px;
-    // background-attachment: fixed;
-    background-position:  top left;
+    background-position: top left;
     background-repeat: no-repeat;
     color: white;
     margin-bottom: 40px;
     @media screen and (max-width: 768px) {
+      background-image: linear-gradient(
+          45deg,
+          rgba(36, 34, 34, 0.767),
+          rgba(36, 34, 34, 0.767)
+        ),
+        url(../images/secondBg.png);
+
       background-position: 10%;
     }
     @media screen and (max-width: 500px) {
@@ -354,14 +363,15 @@ main {
           color: #44b0ff;
           box-shadow: 2px 2px 20px #bdbbbb;
         }
-        @media screen and (max-width: 400px) {
+        @media screen and (max-width: 500px) {
+          margin-top: 20px;
           text-align: center;
         }
       }
     }
     .bottom {
       padding: 50px 60px 90px;
-      background: url("https://github.com/Cruxcodes/images-repository/blob/main/Mask%20group%20(1).png?raw=true");
+      background: url("../images/Mask\ group\ \(1\).png");
       background-size: contain;
       background-repeat: no-repeat;
       background-position: top left;

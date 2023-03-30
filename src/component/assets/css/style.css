@@ -155,6 +155,10 @@ body.nav-active { overflow: hidden; }
   #REUSED STYLE
 \*-----------------------------------*/
 
+.swiperAcheived{
+  margin-bottom: 40px;
+}
+
 .container { padding-inline: 12px; }
 
 .section { padding-block: var(--section-padding); }
@@ -1389,4 +1393,8 @@ text-align: left;
     align-items: flex-start;
 }
 
+}
+
+.memberInfo{
+  background: #000;
 }

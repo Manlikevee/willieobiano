@@ -1,0 +1,67 @@
+.memmberInformation {
+  display: flex;
+  padding-bottom: 30px;
+}
+.memberInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.memberInfo h3 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #18181b;
+}
+.memberInfo p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #18181b;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.images div {
+  width: fit-content;
+}
+.images img {
+  width: fit-content;
+  margin-left: auto;
+}
+
+
+@media screen and (max-width : 1024px) {
+    .memberInfo{
+        width: 50%;
+    }
+    .images{
+        width: 50%;
+    }
+    .images img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .memberInfo h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width : 560px) {
+    .memmberInformation{
+        text-align: center;
+        flex-direction: column;
+    }
+    .memmberInformation > div{
+        margin: 15px 0px;
+        width: 100%;
+    }
+}
