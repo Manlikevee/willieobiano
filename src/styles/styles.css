@@ -52,6 +52,7 @@ main {
 @media screen and (max-width: 450px) {
   main {
     text-align: center;
+    background-attachment: initial;
   }
 }
 main .profile {
@@ -272,7 +273,7 @@ main .profile div p {
 }
 
 .sec_twitter .section {
-  background-image: url(../images/secondBg.png);
+  background-image: linear-gradient(45deg, rgba(36, 34, 34, 0.767), rgba(36, 34, 34, 0.767)), url(../images/secondBg.png);
   background-size: cover;
   padding: 260px 0px;
   background-position: top left;
