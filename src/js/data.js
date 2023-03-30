@@ -40,7 +40,7 @@ export const videos = [
 export const testimonials = [
   {
     comment:
-      "As someone who has been involved in politics for many years, I have seen my fair share of public servants. But I can say with complete confidence that Dani Martinez is one of the most principled and hardworking public servants I have ever encountered.",
+      "As long as I live, I will always project the personality of a servant-leader Gov. Obiano who made the revolution that has made Anambra tick and primus inter pares in educational growth and development in Nigeria.  I saw, tasted and participated in the education and especially Litetacy Empowerment in Anambra state, which Gov. Obiano epitomized.",
     image:
       "https://github.com/Cruxcodes/images-repository/blob/main/Ellipse%202.png?raw=true",
     name: "Joyce Adebayo",

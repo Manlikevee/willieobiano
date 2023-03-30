@@ -41,6 +41,12 @@ main {
   @media screen and (max-width: 768px) {
     background-size: cover;
     background-position: 80%;
+    background: rgb(42 42 42 / 70%) url(https://github.com/Cruxcodes/images-repository/blob/main/Group%2064.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-blend-mode: darken;
+    background-blend-mode: darken;
   }
   @media screen and (max-width: 450px) {
     text-align: center;

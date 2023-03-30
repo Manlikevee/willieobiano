@@ -31,8 +31,8 @@ const Publicsector = () => {
             />
           </div>
           <div className="card-content">
-            <h3 className="h3 card-title">Aer Agency</h3>
-            <p className="card-text">Website / Development</p>
+            <h3 className="h3 card-title">Public Service</h3>
+            <p className="card-text"></p>
           </div>
           <a href="javascript:void(0)" className="layer-link" />
         </div>
@@ -50,8 +50,8 @@ const Publicsector = () => {
             />
           </div>
           <div className="card-content">
-            <h3 className="h3 card-title">Aer Agency</h3>
-            <p className="card-text">Website / Development</p>
+            <h3 className="h3 card-title">Public Service</h3>
+            <p className="card-text"></p>
           </div>
           <a href="javascript:void(0)" className="layer-link" />
         </div>
@@ -69,8 +69,8 @@ const Publicsector = () => {
             />
           </div>
           <div className="card-content">
-            <h3 className="h3 card-title">Aer Agency</h3>
-            <p className="card-text">Website / Development</p>
+            <h3 className="h3 card-title">Public Service</h3>
+            <p className="card-text"></p>
           </div>
           <a href="javascript:void(0)" className="layer-link" />
         </div>
@@ -88,8 +88,8 @@ const Publicsector = () => {
             />
           </div>
           <div className="card-content">
-            <h3 className="h3 card-title">Aer Agency</h3>
-            <p className="card-text">Website / Development</p>
+            <h3 className="h3 card-title">Public Service</h3>
+            <p className="card-text"></p>
           </div>
           <a href="javascript:void(0)" className="layer-link" />
         </div>
@@ -107,8 +107,8 @@ const Publicsector = () => {
             />
           </div>
           <div className="card-content">
-            <h3 className="h3 card-title">Aer Agency</h3>
-            <p className="card-text">Website / Development</p>
+            <h3 className="h3 card-title">Public Service</h3>
+            <p className="card-text"></p>
           </div>
           <a href="javascript:void(0)" className="layer-link" />
         </div>

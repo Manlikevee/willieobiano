@@ -9,3 +9,5 @@ const Biography = () => {
 }
 
 export default Biography
+
+export const Head = () => <title>Biography Page</title>  

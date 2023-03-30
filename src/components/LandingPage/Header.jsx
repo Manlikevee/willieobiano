@@ -7,13 +7,10 @@ function Header() {
       <main>
         <div class="container profile">
           <div>
-            <h5>SUCCESSFUL BUSINESS MAN</h5>
+            <h5>A GREAT ADMINISTRATOR </h5>
             <h3>A Visionary Leader Committed to Progress and Innovation.</h3>
             <p>
-              Former governor of Anambra State, Chief Willie Obiano, was born on
-              the eighth day of the eighth month, August. Do you still wonder
-              why he governed Anambra successfully for eight years?
-            </p>
+    Inspiring hope and confidence in the future of Nigeria with bold ideas and decisive action. Leading with purpose, passion, and dedication: The inspiring leadership of Willie Obiano</p>
           </div>
         </div>
       </main>
