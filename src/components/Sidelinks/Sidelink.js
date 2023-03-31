@@ -21,7 +21,7 @@ const Sidelink = () => {
       </Link>
     </li>
     <li>
-    <Link to="#" className="navbar-link">
+    <Link to="/Gallery" className="navbar-link">
       Gallery
     </Link>
     </li>

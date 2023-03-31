@@ -19,7 +19,7 @@ import myImage16 from './images/13.jpg';
 import myImage17 from './images/14.jpg';
 import myImage18 from './images/15.jpg';
 import myImage19 from './images/10.jpg';
-
+import myImage20 from './images/willie.png';
 
 function Lightbox() {
   const [showLightBox, setShowLightBox] = useState(false);
@@ -40,12 +40,16 @@ function Lightbox() {
 
   return (
     <>
-      <br />
-      <br />
-      <br />
-  
-      <h2 className=" h2 ">Gallery</h2>
 
+  <div className='container'>
+  <br />
+      <br />
+      <br />
+      <h2 className=" h2 ">Gallery</h2>
+      </div>
+ 
+ 
+  
  
     <section className="sect">
       <div className="lightBox" style={{ display: showLightBox ? 'block' : 'none' }}>
@@ -53,7 +57,7 @@ function Lightbox() {
           <i className="fas fa-times close" onClick={handleCloseClick}>X</i>
           <div className="logo_icons">
             <a href="#">
-              <img className="logoImg" src="https://manlikevee.netlify.app/assets/images/willie.jpg" alt="" />
+              <img className="logoImg" src={myImage20} alt="" />
               <div className="text_content">
                 <span className="name">{selectedName}</span>
               </div>
@@ -81,7 +85,7 @@ function Lightbox() {
             />
             <div className="logo_icons">
               <a href="#">
-                <img className="logoImg" src="https://manlikevee.netlify.app/assets/images/willie.jpg" alt="" />
+                <img className="logoImg" src={myImage20} alt="" />
                 <div className="text_content">
                   <span className="name">Willie Obiano</span>
                 </div>
@@ -97,7 +101,7 @@ function Lightbox() {
             />
             <div className="logo_icons">
               <a href="#">
-                <img className="logoImg" src="https://manlikevee.netlify.app/assets/images/willie.jpg" alt="" />
+                <img className="logoImg" src={myImage20} alt="" />
                 <div className="text_content">
                   <span className="name">Willie Obiano</span>
                 </div>
@@ -113,7 +117,7 @@ function Lightbox() {
             />
             <div className="logo_icons">
               <a href="#">
-                <img className="logoImg" src="https://manlikevee.netlify.app/assets/images/willie.jpg" alt="" />
+                <img className="logoImg" src={myImage20} alt="" />
                 <div className="text_content">
                   <span className="name">Willie Obiano</span>
                 </div>
@@ -130,7 +134,7 @@ function Lightbox() {
             />
             <div className="logo_icons">
               <a href="#">
-                <img className="logoImg" src="https://manlikevee.netlify.app/assets/images/willie.jpg" alt="" />
+                <img className="logoImg" src={myImage20} alt="" />
                 <div className="text_content">
                   <span className="name">Willie Obiano</span>
                 </div>
@@ -146,7 +150,7 @@ function Lightbox() {
             />
             <div className="logo_icons">
               <a href="#">
-                <img className="logoImg" src="https://manlikevee.netlify.app/assets/images/willie.jpg" alt="" />
+                <img className="logoImg" src={myImage20} alt="" />
                 <div className="text_content">
                   <span className="name">Willie Obiano</span>
                 </div>
@@ -163,7 +167,7 @@ function Lightbox() {
             />
             <div className="logo_icons">
               <a href="#">
-                <img className="logoImg" src="https://manlikevee.netlify.app/assets/images/willie.jpg" alt="" />
+                <img className="logoImg" src={myImage20} alt="" />
                 <div className="text_content">
                   <span className="name">Willie Obiano</span>
                 </div>
@@ -181,7 +185,7 @@ function Lightbox() {
             />
             <div className="logo_icons">
               <a href="#">
-                <img className="logoImg" src="https://manlikevee.netlify.app/assets/images/willie.jpg" alt="" />
+                <img className="logoImg" src={myImage20} alt="" />
                 <div className="text_content">
                   <span className="name">Willie Obiano</span>
                 </div>
@@ -197,7 +201,7 @@ function Lightbox() {
             />
             <div className="logo_icons">
               <a href="#">
-                <img className="logoImg" src="https://manlikevee.netlify.app/assets/images/willie.jpg" alt="" />
+                <img className="logoImg" src={myImage20} alt="" />
                 <div className="text_content">
                   <span className="name">Willie Obiano</span>
                 </div>
@@ -216,7 +220,7 @@ function Lightbox() {
             />
             <div className="logo_icons">
               <a href="#">
-                <img className="logoImg" src="https://manlikevee.netlify.app/assets/images/willie.jpg" alt="" />
+                <img className="logoImg" src={myImage20} alt="" />
                 <div className="text_content">
                   <span className="name">Willie Obiano</span>
                 </div>
@@ -233,7 +237,7 @@ function Lightbox() {
             />
             <div className="logo_icons">
               <a href="#">
-                <img className="logoImg" src="https://manlikevee.netlify.app/assets/images/willie.jpg" alt="" />
+                <img className="logoImg" src={myImage20} alt="" />
                 <div className="text_content">
                   <span className="name">Willie Obiano</span>
                 </div>
@@ -250,7 +254,7 @@ function Lightbox() {
             />
             <div className="logo_icons">
               <a href="#">
-                <img className="logoImg" src="https://manlikevee.netlify.app/assets/images/willie.jpg" alt="" />
+                <img className="logoImg" src={myImage20} alt="" />
                 <div className="text_content">
                   <span className="name">Willie Obiano</span>
                 </div>
@@ -268,7 +272,7 @@ function Lightbox() {
             />
             <div className="logo_icons">
               <a href="#">
-                <img className="logoImg" src="https://manlikevee.netlify.app/assets/images/willie.jpg" alt="" />
+                <img className="logoImg" src={myImage20} alt="" />
                 <div className="text_content">
                   <span className="name">Willie Obiano</span>
                 </div>
@@ -284,7 +288,7 @@ function Lightbox() {
             />
             <div className="logo_icons">
               <a href="#">
-                <img className="logoImg" src="https://manlikevee.netlify.app/assets/images/willie.jpg" alt="" />
+                <img className="logoImg" src={myImage20} alt="" />
                 <div className="text_content">
                   <span className="name">Willie Obiano</span>
                 </div>
@@ -301,7 +305,7 @@ function Lightbox() {
             />
             <div className="logo_icons">
               <a href="#">
-                <img className="logoImg" src="https://manlikevee.netlify.app/assets/images/willie.jpg" alt="" />
+                <img className="logoImg" src={myImage20} alt="" />
                 <div className="text_content">
                   <span className="name">Willie Obiano</span>
                 </div>
@@ -319,7 +323,7 @@ function Lightbox() {
             />
             <div className="logo_icons">
               <a href="#">
-                <img className="logoImg" src="https://manlikevee.netlify.app/assets/images/willie.jpg" alt="" />
+                <img className="logoImg" src={myImage20} alt="" />
                 <div className="text_content">
                   <span className="name">Willie Obiano</span>
                 </div>
@@ -336,7 +340,7 @@ function Lightbox() {
             />
             <div className="logo_icons">
               <a href="#">
-                <img className="logoImg" src="https://manlikevee.netlify.app/assets/images/willie.jpg" alt="" />
+                <img className="logoImg" src={myImage20} alt="" />
                 <div className="text_content">
                   <span className="name">Willie Obiano</span>
                 </div>
@@ -354,7 +358,7 @@ function Lightbox() {
             />
             <div className="logo_icons">
               <a href="#">
-                <img className="logoImg" src="https://manlikevee.netlify.app/assets/images/willie.jpg" alt="" />
+                <img className="logoImg" src={myImage20} alt="" />
                 <div className="text_content">
                   <span className="name">Willie Obiano</span>
                 </div>
@@ -371,7 +375,7 @@ function Lightbox() {
             />
             <div className="logo_icons">
               <a href="#">
-                <img className="logoImg" src="https://manlikevee.netlify.app/assets/images/willie.jpg" alt="" />
+                <img className="logoImg" src={myImage20} alt="" />
                 <div className="text_content">
                   <span className="name">Willie Obiano</span>
                 </div>
@@ -388,7 +392,7 @@ function Lightbox() {
             />
             <div className="logo_icons">
               <a href="#">
-                <img className="logoImg" src="https://manlikevee.netlify.app/assets/images/willie.jpg" alt="" />
+                <img className="logoImg" src={myImage20} alt="" />
                 <div className="text_content">
                   <span className="name">Willie Obiano</span>
                 </div>
