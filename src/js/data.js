@@ -38,21 +38,23 @@ export const videos = [
 ];
 
 export const testimonials = [
+
   {
     comment:
-      "As long as I live, I will always project the personality of a servant-leader Gov. Obiano who made the revolution that has made Anambra tick and primus inter pares in educational growth and development in Nigeria.  I saw, tasted and participated in the education and especially Litetacy Empowerment in Anambra state, which Gov. Obiano epitomized.",
+      "No doubt that history will ever remember you positively for the unparallel records of achievement in Anambra State Hence the Title 'Ukwuoma Kpolu Anambra State' by Anambra State Traditional Rulers Council on 17th March 2022 Remain blessed Akpokuodike Global , Ebubedike Aguleri , Odogwu Omambala , etc Okenwa Aguleri.",
     image:
       "https://github.com/Cruxcodes/images-repository/blob/main/Ellipse%202.png?raw=true",
-    name: "Joyce Adebayo",
-    certification: "Minister of Education, Nigeria",
+    name: "Solomon Arase Former IGP",
+    certification: "",
   },
+
   {
     comment:
       "Thank you, Your Excellency. You came and conquered and established your name in gold in the spare of security in Anambra State. May the almighty continue to bless you, sir.",
     image:
       "https://github.com/Cruxcodes/images-repository/blob/main/Ellipse%202.png?raw=true",
     name: "General Fage",
-    certification: "Minister of Education, Nigeria",
+    certification: "",
   },
   {
     comment:
@@ -60,6 +62,6 @@ export const testimonials = [
     image:
       "https://github.com/Cruxcodes/images-repository/blob/main/Ellipse%202.png?raw=true",
     name: "Major General Lapai",
-    certification: "Minister of Education, Nigeria",
+    certification: "",
   },
 ];

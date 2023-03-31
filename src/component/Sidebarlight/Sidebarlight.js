@@ -13,14 +13,14 @@ const Sidebarlight = () => {
   return (
     <>
        <div className="container">
-    <a href="#" className="logo">
+       <Link to="/" className="logo">
       <img
         src={myImage}
         width={170}
         height={40}
         alt="Pfolio home"
       />
-    </a>
+    </Link>
       <button
         type="button"
         data-nav-toggle-btn

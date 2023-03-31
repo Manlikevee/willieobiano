@@ -1879,3 +1879,132 @@ section .image-gallery .text_content .followers{
   opacity: 1;
   transform: translateX(0);
 }
+
+.formcontent button{
+  padding: 14px;
+  border-radius: 5px;
+  background: #0F172A;
+  border: 1px solid #0F172A ;
+color: white;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0px;
+text-align: left;
+width: 100%;
+text-align: center;
+
+
+}
+
+
+
+.contactusflex{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('./images/abt.png');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+
+
+.contactfleximage{
+  width: 70%;
+  background-image: url('./images/Rectangle\ 26.png'), url('./images/BG\ \(6\).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 85vh;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1%;
+
+}
+.contactfleximage p{
+  padding: 30px;
+  margin-top: auto;
+color: white;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.contactflexform{
+width: 100%;
+padding: 20px;
+
+}
+
+.contactflexform{
+
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.blacktext{
+color: black;
+
+font-size: 23px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.formcontent{
+width: 100%;
+}
+
+.formcontent input{
+width: 100%;
+border: 1px solid #C2C2C2;
+height: 36px;
+padding: 15px;
+border-radius: 4px;
+
+}
+.formcontent{
+  margin-top: 15px;
+} 
+
+
+
+.formlayout .skills-wrapper {
+  gap: 4% !important;
+  
+  grid-template-columns: 1fr 1fr;
+
+}
+
+label{
+color: #565454;
+font-size: 15px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+@media screen and (max-width:993px){
+.contactusflex{
+  flex-direction: column;
+}
+.contactfleximage{
+  width: 100%;
+  height: fit-content;
+  background-position: 20%;
+  display: none;
+}
+}
