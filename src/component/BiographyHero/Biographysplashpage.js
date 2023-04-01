@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollBottomButton from '../Scrollbottombutton/ScrollBottomButton'
 
 const Biographysplashpage = () => {
   return (
@@ -17,6 +18,8 @@ const Biographysplashpage = () => {
           <div className="div2">Biography</div>
         </div>
       </div>
+
+      <ScrollBottomButton />
     </div>
   </section>
   

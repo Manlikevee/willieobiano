@@ -134,7 +134,7 @@ body {
   overflow-x: hidden;
 }
 
-body.loaded { overflow: overlay; }
+body.loaded { overflow: visible; }
 
 body.nav-active { overflow: hidden; }
 
@@ -163,7 +163,12 @@ body.nav-active { overflow: hidden; }
   font-size: var(--fs-3);
   font-weight: var(--fw-800);
 }
+.acent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
 .h1,
 .h2,
 .h4 {
@@ -2006,5 +2011,50 @@ text-align: left;
   height: fit-content;
   background-position: 20%;
   display: none;
+}
+}
+
+
+
+
+.toBottom {
+  cursor: pointer;
+  width: 45px;
+}
+
+@keyframes toBottom {
+  50% {
+      bottom: 17px;
+  }
+  
+}
+
+
+.toBottom {
+  animation-name: toBottom;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  bottom: 10px;
+} 
+
+#scroll-Bottom  {
+  position: absolute;
+  bottom: 40px;
+}
+#scroll-Botom:hover{
+pointer-events: none;
+animation-name: toBottom2;
+
+}
+/* nav style */
+.scrollcont {
+  margin-top: -37px;
+  position: absolute;
+
+}
+@media screen and (max-width: 900px){
+.scrollcont {
+  margin-top: -140px;
+  position: absolute;
 }
 }

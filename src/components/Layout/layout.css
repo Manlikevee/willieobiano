@@ -134,7 +134,7 @@ body {
   overflow-x: hidden;
 }
 
-body.loaded { overflow: scroll; }
+body.loaded { overflow: visible; }
 
 body.nav-active { overflow: hidden; }
 

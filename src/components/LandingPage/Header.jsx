@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollBottomButton from "../../component/Scrollbottombutton/ScrollBottomButton";
 
 function Header() {
   return (
@@ -12,6 +13,12 @@ function Header() {
             <p>
     Inspiring hope and confidence in the future of Nigeria with bold ideas and decisive action. Leading with purpose, passion, and dedication: The inspiring leadership of Willie Obiano</p>
           </div>
+
+
+
+        </div>
+        <div className="container acent">
+        <ScrollBottomButton />
         </div>
       </main>
     </div>  
