@@ -74,8 +74,6 @@ function Lightbox() {
      
       <div className="image-gallery">
         <div className="image-container">
-        
-        
           <div className="image-box">
             <img
               className="gImg"

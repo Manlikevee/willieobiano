@@ -9,7 +9,7 @@ function Membership() {
       <div className="memberInfo">
         <h3>Membership in Professional associations</h3>
         <p>
-          Willie Obaino is one of Africa’s leading investors and
+          Willie Obiano is one of Africa’s leading investors and
           philanthropists. He is the Founder.
         </p>
       </div>

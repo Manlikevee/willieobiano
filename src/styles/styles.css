@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
 * {
   margin: 0pc;
   box-sizing: border-box;
@@ -164,6 +165,7 @@ main .profile div p {
 .testimonial .person .infoBody img {
   width: 60px;
   height: 60px;
+  border-radius: 50%;
 }
 .testimonial .person .infoBody .info {
   margin: 20px 0px;
@@ -388,27 +390,23 @@ main .profile div p {
   }
 }
 .sec_twitter .twitter .bottom {
-  padding: 50px 60px 90px;
+  padding: 50px;
   background: url("../images/Mask group (1).png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top left;
-  display: flex;
   justify-content: space-between;
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .sec_twitter .twitter .bottom {
     flex-direction: column;
     text-align: center;
     padding: 20px;
   }
 }
-.sec_twitter .twitter .bottom img {
-  width: 30%;
-}
-@media screen and (max-width: 760px) {
-  .sec_twitter .twitter .bottom img {
-    width: 100%;
-    margin: 20px 0px;
+@media screen and (max-width: 425px) {
+  .sec_twitter .twitter .bottom span.css-901oao.css-16my406.r-poiln3.r-bcqeeo.r-qvutc0 {
+    font-size: 13px;
+    line-height: normal;
   }
 }/*# sourceMappingURL=styles.css.map */
