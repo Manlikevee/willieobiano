@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
+import twitter from './images/logos_twitter.png'
 
 export function Section() {
     useEffect(() => {
@@ -28,12 +29,12 @@ export function Section() {
         <div className="top">
           <div>
             <img
-              src="https://github.com/Cruxcodes/images-repository/blob/main/twitterIcon.png?raw=true"
+              src={twitter}
               alt=""
             />
             <p>Conversations from Willie Obiano</p>
           </div>
-          <a href="#">follow</a>
+          <a href="https://twitter.com/WillieMObiano">follow</a>
         </div>
         <div className="bottom">
           <div className="twitter-embed">
