@@ -1,10 +1,18 @@
 import React from 'react'
 import myImage from "./images/willie.png"
-
+import { Helmet } from "react-helmet";
 
 const Footer = () => {
   return (
+
+
     <div>
+
+<Helmet>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </Helmet>
+
         <footer className="footer">
   <li className="container" style={{ marginBottom: 20 }}>
     <a href="#" className="logo">
@@ -46,25 +54,22 @@ const Footer = () => {
     </ul>
     <ul className="social-list">
       <li>
-        <a href="#" className="social-link">
-          <ion-icon  className="logo-dribbble" />
+        <a href="https://twitter.com/williemobiano?lang=en" className="social-link">
+          <ion-icon  name="logo-twitter" />
+        </a>
+      </li>
+     
+      <li>
+        <a href="https://www.instagram.com/williemobiano/" className="social-link">
+          <ion-icon  name="logo-instagram" />
         </a>
       </li>
       <li>
-        <a href="#" className="social-link">
-          <ion-icon  className="logo-instagram" />
+        <a href="https://www.facebook.com/WillieObiano/" className="social-link">
+          <ion-icon  name="logo-facebook" />
         </a>
       </li>
-      <li>
-        <a href="#" className="social-link">
-          <ion-icon  className="logo-skype" />
-        </a>
-      </li>
-      <li>
-        <a href="#" className="social-link">
-          <ion-icon name="logo-linkedin" />
-        </a>
-      </li>
+
     </ul>
   </div>
   <div className="willyobianofooter container">

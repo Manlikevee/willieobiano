@@ -1504,7 +1504,7 @@ text-align: left;
   transform: translate(-0.5px, 0.2em);
 }
 
-.timeline-item .activey::before {
+/* .timeline-item .activey::before {
   content: "";
   position: absolute;
   left: -2.35em;
@@ -1513,7 +1513,24 @@ text-align: left;
   height: 0.7em;
   border-radius: 50%;
   transform: translate(-0.5px, 0.2em);
+} */
+
+.activey h3::before {
+  content: "";
+  position: absolute;
+  left: -2.35em;
+  background-color: orange !important;
+  width: 0.7em;
+  height: 0.7em;
+  border-radius: 50%;
+  transform: translate(-0.5px, 0.2em);
 }
+
+.activey .location{
+  color: orange !important;
+}
+
+
 
 
 

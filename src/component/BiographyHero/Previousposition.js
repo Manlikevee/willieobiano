@@ -5,6 +5,7 @@ import myImage1 from "./images/Rectangle 58 (1).png"
 import myImage2 from "./images/Rectangle 87.png"
 import myImage3 from "./images/Rectangle 58 (2).png"
 import Biographyslide from './Biographyslide'
+import Biographyslides from './Biographyslides'
 
 
 
@@ -22,36 +23,36 @@ const Previousposition = () => {
       <div className="timelines">
   <div className="timeline education">
     <div className="timeline-items">
-      <div className="timeline-item">
-        <h3 className="activey" />
-        <a href="#section1" className="location">
+      <div className="timeline-item" id="sec1">
+        <h3 className="" />
+        <a href="#section1" className="location" id=''>
           1981{" "}
         </a>
       </div>
-      <div className="timeline-item">
+      <div className="timeline-item" id="sec2">
         <h3 />
         <a href="#section2" className="location">
-          2005{" "}
+          1991{" "}
         </a>
       </div>
-      <div className="timeline-item">
+      <div className="timeline-item" id="sec3">
         <h3 />
         <a href="#section3" className="location">
           2010{" "}
         </a>
       </div>
-      <div className="timeline-item">
+      <div className="timeline-item" id="sec4">
         <h3 />
         <a href="#section4" className="location">
-          2015{" "}
+          2014{" "}
         </a>
       </div>
-      <div className="timeline-item">
+      {/* <div className="timeline-item" id='sec5'>
         <h3 />
         <a href="#section5" className="location">
-          2023{" "}
+          2022{" "}
         </a>
-      </div>
+      </div> */}
     </div>
   </div>
 </div>
@@ -61,7 +62,9 @@ const Previousposition = () => {
       </div>
 
       <div className="stack">
-<Biographyslide />
+
+<br />
+<Biographyslides />
       </div>
     </div>
   </div>
