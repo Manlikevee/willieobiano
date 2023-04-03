@@ -10,6 +10,8 @@ SwiperCore.use([Keyboard, Mousewheel]);
 function Achievements() {
   const [begin, setBegin] = React.useState(0);
   const [windowSize, setWindowSize] = useState(getWindowSize());
+  const containerRef = useRef(null);
+  const [scrolledToTop, setScrolledToTop] = useState(false);
 
   useEffect(() => {
     function handleWindowResize() {
@@ -23,13 +25,33 @@ function Achievements() {
     };
   }, []);
 
+  useEffect(() => {
+    const container = containerRef.current;
+    console.log(containerRef.current)
+    if (container) {
+      const handleScroll = () => {
+        if (container.scrollTop === 0) {
+          setScrolledToTop(true);
+          console.log("hello")
+        } else {
+          setScrolledToTop(false);
+          console.log("this isn't it")
+        }
+      };
+      container.addEventListener("scroll", handleScroll);
+      return () => {
+        container.removeEventListener("scroll", handleScroll);
+      };
+    }
+  }, [containerRef]);
+
   function getWindowSize() {
     const { innerWidth, innerHeight } = window;
     return { innerWidth, innerHeight };
   }
   let num = 0;
   return (
-    <>
+    <div ref={containerRef} >
       {windowSize.innerWidth > 768 ? (
         <Swiper
           // ref={scrollRef}
@@ -64,7 +86,7 @@ function Achievements() {
                 {" "}
                 <EarlylifeAb
                   title={data.title}
-                  image ={data.image}
+                  image={data.image}
                   text={data.text}
                   texttwo={data.texttwo}
                 />
@@ -85,7 +107,7 @@ function Achievements() {
           );
         })
       )}
-    </>
+    </div>
   );
 }
 

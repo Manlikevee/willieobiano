@@ -1,0 +1,464 @@
+@import "../../../styles/variables";
+body {
+  overflow: scroll;
+}
+
+.notable {
+  display: flex;
+  gap: 20px;
+  margin: 100px auto;
+  div {
+    width: 50%;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  ul {
+    padding: 0px 30px;
+    padding-bottom: 20px;
+    background: white;
+    color: #373737;
+    position: relative;
+    left: -150px;
+    font-family: $jakarta;
+    font-weight: 600;
+    font-size: 32px;
+    @media screen and (max-width: 1024px) {
+      font-size: 24px;
+      padding-right: 0px;
+    }
+    @media screen and (max-width: 1000px) {
+      font-size: 20px;
+      left: 0px;
+      padding: 0px;
+    }
+
+    li {
+      // li   st-style-type: disc;
+      position: relative;
+      line-height: 40px;
+      @media screen and (max-width: 500px) {
+        line-height: 30px;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        width: 10px;
+        top: 20%;
+
+        border-radius: 50%;
+        left: -4%;
+        background: #565454;
+        height: 10px;
+
+        @media screen and (max-width: 500px) {
+          left: -20px;
+        }
+      }
+    }
+  }
+  p {
+    padding: 20px 10px;
+    color: #5a5a5bdb;
+    font-family: $montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+
+    @media screen and (max-width: 1000px) {
+      padding: 0px;
+    }
+  }
+
+  @media screen and (max-width: 758px) {
+    flex-direction: column;
+
+    div {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+}
+
+.fifa {
+  background: #000;
+  background: url(../images/Rectangle\ 100.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  @media screen and (max-width: 500px) {
+    background-size: top;
+    margin-bottom: 400px;
+  }
+  div {
+    width: 60%;
+    background: white;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.07);
+    position: relative;
+    padding: 70px 60px;
+    top: 100px;
+
+    @media screen and (max-width: 1024px) {
+      padding: 50px 30px;
+      left: -10px;
+    }
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      color: white;
+      background: rgb(255 255 255 / 73%);
+      top: 70px;
+      ul {
+        color: black;
+      }
+      p {
+        // color: black;
+      }
+    }
+    @media screen and (max-width: 500px) {
+      top: 300px;
+      background: rgb(255, 255, 255);
+      left: 0px;
+    }
+  }
+  ul {
+    left: 0px;
+    padding: 0px;
+    background: none;
+  }
+}
+
+.hotel {
+  box-sizing: border-box;
+  display: block;
+  margin-top: 150px;
+  @media screen and (max-width: 500px) {
+    margin-top: 100px;
+  }
+  p {
+    padding: 0px;
+  }
+
+  div {
+    width: 100%;
+    ul {
+      left: 0px;
+      padding: 0px;
+      @media screen and (max-width: 500px) {
+        padding-left: 10px;
+      }
+      li {
+        &::before {
+          left: -2%;
+          @media screen and (max-width: 500px) {
+            left: -5%;
+            top: 30%;
+          }
+        }
+      }
+    }
+
+    .texts {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+
+      margin: 25px auto;
+      @media screen and (max-width: 730px) {
+        flex-direction: column;
+        padding: 0px;
+        gap: 0px;
+        div {
+          padding: 0px;
+        }
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+        @media screen and (max-width: 730px) {
+          gap: 20px 0px;
+        }
+      }
+    }
+    .images {
+      margin-top: 40px;
+      display: grid;
+      // grid-template-columns: repeat(5, 19%);
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      gap: 10px;
+      justify-content: space-between;
+      padding: 0px;
+      @media screen and (max-width: 800px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      }
+      @media screen and (max-width: 600px) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 200px 200px 200px;
+      }
+      @media screen and (max-width: 400px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 200px 200px 200px 200px;
+      }
+      img {
+        object-fit: cover;
+        width: 100%;
+        transition: 0.5s;
+
+        &:hover {
+          box-shadow: 2px 2px 20px rgba(100, 100, 100, 0.562);
+        }
+      }
+    }
+  }
+}
+
+.honours {
+
+  .swiper-button-prev{
+    color: transparent;
+    background: url('../images//Group\ 58.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 100%;
+  }
+  .swiper-button-next{
+   color: transparent;
+    background: url('../images//Group\ 59.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 100%;
+
+  }
+  display: block;
+  h3 {
+    font-family: $jakarta;
+    color: #18181b;
+    font-weight: 600;
+    margin: 20px 0px;
+    font-size: 32px;
+  }
+  p {
+    padding: 0px;
+    font-family: $montserrat;
+    font-weight: 400px;
+    font-size: 20px;
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+    }
+  }
+
+  .achievements {
+    display: flex;
+    margin: 25px 0px;
+    width: 100%;
+    height: 550px;
+    padding: 0px;
+    @media screen and (max-width: 768px) {
+      height: 300px;
+    }
+    @media screen and (max-width: 630px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: 400px;
+      width: 100%;
+
+      div {
+        padding: 0px;
+      }
+    }
+    @keyframes moave {
+      0% {
+        height: 100%;
+        top: 0px;
+      }
+      50% {
+        height: 90%;
+      }
+      100% {
+        height: 100%;
+      }
+    }
+
+    @keyframes movingUp {
+      0% {
+        background-position: bottom;
+      }
+      50% {
+        background-position: -.2%;
+      }
+      100% {
+        background-position: bottom;
+      }
+    }
+    @keyframes moving {
+      0% {
+        background-position: top;
+      }
+      50% {
+        background-position: .5%;
+      }
+      100% {
+        background-position: top;
+      }
+    }
+    .imageOne {
+      background: url(../images/Group\ 60.png);
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: contain;
+      top: 0px;
+      @media screen and (min-width: 1024px) {
+        animation: movingUp 5s cubic-bezier(0.3, 0.9, 1, 1) infinite;
+        animation-delay: 1s;
+      }
+    }
+    .imageTwo {
+      background: url(../images/Group\ 61.png);
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: relative;
+      bottom: 0px;
+      @media screen and (min-width: 1024px) {
+        animation: moving 5s cubic-bezier(0.3, 0.9, 1, 1) infinite;
+
+      }
+    }
+    .imageThree {
+      background: url(../images/Group\ 62.png);
+      background-position: bottom;
+      background-size: contain;
+
+      background-repeat: no-repeat;
+   @media screen and (min-width: 1024px) {
+        animation: movingUp 5s cubic-bezier(0.3, 0.9, 1, 1) infinite;
+      }
+    }
+    .imageFour {
+      background: url(../images/Group\ 63.png);
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: contain;
+      @media screen and (min-width: 1024px) {
+        animation: moving 5s cubic-bezier(0.3, 0.9, 1, 1) infinite;
+      }
+    }
+    .imageFive {
+      background: url("../images/IMAGE.png");
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: contain;
+   @media screen and (min-width: 1024px) {
+        animation: movingUp 5s cubic-bezier(0.3, 0.9, 1, 1) infinite;
+        animation-delay: 1s;
+
+      }
+    }
+  }
+}
+
+.notable.top {
+  display: block;
+  margin: 240px auto 150px auto;
+  @media screen and (max-width: 1000px) {
+    margin: 100px auto 130px auto;
+  }
+  div {
+    width: 100%;
+    @media screen and (max-width: 768px) {
+      padding: 0px;
+    }
+  }
+  .content {
+    display: flex;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+    .texts {
+      ul {
+        left: 0px;
+        padding: 0px;
+        padding-bottom: 30px;
+      }
+      & p:last-child {
+        width: 130%;
+        @media screen and (max-width: 1024px) {
+          width: 140%;
+        }
+        @media screen and (max-width: 768px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.grid {
+  position: relative;
+  top: -120px;
+  display: grid;
+  margin-left: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 600px;
+  gap: 10px;
+  @media screen and (max-width: 768px) {
+    top: 0px;
+    margin: 0px;
+    margin-top: 20px;
+  }
+  @media screen and (max-width: 425px) {
+    display: block;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .name {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    @media screen and (max-width: 425px) {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 150px;
+      margin: 20px 0px;
+    }
+    gap: 10px;
+    div {
+      background: #000;
+    }
+  }
+
+  .two {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 100px;
+    gap: 10px;
+    @media screen and (max-width: 425px) {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 200px;
+    }
+    div {
+      background: red;
+    }
+  }
+
+  .three {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    @media screen and (max-width: 425px) {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 150px;
+      margin: 20px 0px;
+    }
+    gap: 10px;
+    div {
+      background: #000;
+    }
+  }
+}

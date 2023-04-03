@@ -1,0 +1,504 @@
+body {
+  overflow: scroll;
+}
+
+.notable {
+  display: flex;
+  gap: 20px;
+  margin: 100px auto;
+}
+.notable div {
+  width: 50%;
+}
+.notable div img {
+  width: 100%;
+  height: 100%;
+}
+.notable ul {
+  padding: 0px 30px;
+  padding-bottom: 20px;
+  background: white;
+  color: #373737;
+  position: relative;
+  left: -150px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+@media screen and (max-width: 1024px) {
+  .notable ul {
+    font-size: 24px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .notable ul {
+    font-size: 20px;
+    left: 0px;
+    padding: 0px;
+  }
+}
+.notable ul li {
+  position: relative;
+  line-height: 40px;
+}
+@media screen and (max-width: 500px) {
+  .notable ul li {
+    line-height: 30px;
+  }
+}
+.notable ul li::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  top: 20%;
+  border-radius: 50%;
+  left: -4%;
+  background: #565454;
+  height: 10px;
+}
+@media screen and (max-width: 500px) {
+  .notable ul li::before {
+    left: -20px;
+  }
+}
+.notable p {
+  padding: 20px 10px;
+  color: rgba(90, 90, 91, 0.8588235294);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+}
+@media screen and (max-width: 1000px) {
+  .notable p {
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 758px) {
+  .notable {
+    flex-direction: column;
+  }
+  .notable div {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+.fifa {
+  background: #000;
+  background: url(../images/Rectangle\ 100.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 500px) {
+  .fifa {
+    background-size: top;
+    margin-bottom: 400px;
+  }
+}
+.fifa div {
+  width: 60%;
+  background: white;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.07);
+  position: relative;
+  padding: 70px 60px;
+  top: 100px;
+}
+@media screen and (max-width: 1024px) {
+  .fifa div {
+    padding: 50px 30px;
+    left: -10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .fifa div {
+    width: 100%;
+    color: white;
+    background: rgba(255, 255, 255, 0.73);
+    top: 70px;
+  }
+  .fifa div ul {
+    color: black;
+  }
+}
+@media screen and (max-width: 500px) {
+  .fifa div {
+    top: 300px;
+    background: rgb(255, 255, 255);
+    left: 0px;
+  }
+}
+.fifa ul {
+  left: 0px;
+  padding: 0px;
+  background: none;
+}
+
+.hotel {
+  box-sizing: border-box;
+  display: block;
+  margin-top: 150px;
+}
+@media screen and (max-width: 500px) {
+  .hotel {
+    margin-top: 100px;
+  }
+}
+.hotel p {
+  padding: 0px;
+}
+.hotel div {
+  width: 100%;
+}
+.hotel div ul {
+  left: 0px;
+  padding: 0px;
+}
+@media screen and (max-width: 500px) {
+  .hotel div ul {
+    padding-left: 10px;
+  }
+}
+.hotel div ul li::before {
+  left: -2%;
+}
+@media screen and (max-width: 500px) {
+  .hotel div ul li::before {
+    left: -5%;
+    top: 30%;
+  }
+}
+.hotel div .texts {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 25px auto;
+}
+@media screen and (max-width: 730px) {
+  .hotel div .texts {
+    flex-direction: column;
+    padding: 0px;
+    gap: 0px;
+  }
+  .hotel div .texts div {
+    padding: 0px;
+  }
+}
+.hotel div .texts div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media screen and (max-width: 730px) {
+  .hotel div .texts div {
+    gap: 20px 0px;
+  }
+}
+.hotel div .images {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 0px;
+}
+@media screen and (max-width: 800px) {
+  .hotel div .images {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hotel div .images {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px 200px 200px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hotel div .images {
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+  }
+}
+.hotel div .images img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  transition: 0.5s;
+}
+.hotel div .images img:hover {
+  box-shadow: 2px 2px 20px rgba(100, 100, 100, 0.562);
+}
+
+.honours {
+  display: block;
+}
+.honours .swiper-button-prev {
+  color: transparent;
+  background: url("../images//Group 58.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 100%;
+}
+.honours .swiper-button-next {
+  color: transparent;
+  background: url("../images//Group 59.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 100%;
+}
+.honours h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #18181b;
+  font-weight: 600;
+  margin: 20px 0px;
+  font-size: 32px;
+}
+.honours p {
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400px;
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .honours p {
+    font-size: 16px;
+  }
+}
+.honours .achievements {
+  display: flex;
+  margin: 25px 0px;
+  width: 100%;
+  height: 550px;
+  padding: 0px;
+}
+@media screen and (max-width: 768px) {
+  .honours .achievements {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 630px) {
+  .honours .achievements {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+    width: 100%;
+  }
+  .honours .achievements div {
+    padding: 0px;
+  }
+}
+@keyframes moave {
+  0% {
+    height: 100%;
+    top: 0px;
+  }
+  50% {
+    height: 90%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+@keyframes movingUp {
+  0% {
+    background-position: bottom;
+  }
+  50% {
+    background-position: -0.2%;
+  }
+  100% {
+    background-position: bottom;
+  }
+}
+@keyframes moving {
+  0% {
+    background-position: top;
+  }
+  50% {
+    background-position: 0.5%;
+  }
+  100% {
+    background-position: top;
+  }
+}
+.honours .achievements .imageOne {
+  background: url(../images/Group\ 60.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 0px;
+}
+@media screen and (min-width: 1024px) {
+  .honours .achievements .imageOne {
+    animation: movingUp 5s cubic-bezier(0.3, 0.9, 1, 1) infinite;
+    animation-delay: 1s;
+  }
+}
+.honours .achievements .imageTwo {
+  background: url(../images/Group\ 61.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  bottom: 0px;
+}
+@media screen and (min-width: 1024px) {
+  .honours .achievements .imageTwo {
+    animation: moving 5s cubic-bezier(0.3, 0.9, 1, 1) infinite;
+  }
+}
+.honours .achievements .imageThree {
+  background: url(../images/Group\ 62.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 1024px) {
+  .honours .achievements .imageThree {
+    animation: movingUp 5s cubic-bezier(0.3, 0.9, 1, 1) infinite;
+  }
+}
+.honours .achievements .imageFour {
+  background: url(../images/Group\ 63.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media screen and (min-width: 1024px) {
+  .honours .achievements .imageFour {
+    animation: moving 5s cubic-bezier(0.3, 0.9, 1, 1) infinite;
+  }
+}
+.honours .achievements .imageFive {
+  background: url("../images/IMAGE.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media screen and (min-width: 1024px) {
+  .honours .achievements .imageFive {
+    animation: movingUp 5s cubic-bezier(0.3, 0.9, 1, 1) infinite;
+    animation-delay: 1s;
+  }
+}
+
+.notable.top {
+  display: block;
+  margin: 240px auto 150px auto;
+}
+@media screen and (max-width: 1000px) {
+  .notable.top {
+    margin: 100px auto 130px auto;
+  }
+}
+.notable.top div {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .notable.top div {
+    padding: 0px;
+  }
+}
+.notable.top .content {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .notable.top .content {
+    flex-direction: column;
+  }
+}
+.notable.top .content .texts ul {
+  left: 0px;
+  padding: 0px;
+  padding-bottom: 30px;
+}
+.notable.top .content .texts p:last-child {
+  width: 130%;
+}
+@media screen and (max-width: 1024px) {
+  .notable.top .content .texts p:last-child {
+    width: 140%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .notable.top .content .texts p:last-child {
+    width: 100%;
+  }
+}
+
+.grid {
+  position: relative;
+  top: -120px;
+  display: grid;
+  margin-left: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 600px;
+  gap: 10px;
+}
+@media screen and (max-width: 768px) {
+  .grid {
+    top: 0px;
+    margin: 0px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .grid {
+    display: block;
+  }
+}
+.grid img {
+  width: 100%;
+  height: 100%;
+}
+.grid .name {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+}
+@media screen and (max-width: 425px) {
+  .grid .name {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px;
+    margin: 20px 0px;
+  }
+}
+.grid .name div {
+  background: #000;
+}
+.grid .two {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 100px;
+  gap: 10px;
+}
+@media screen and (max-width: 425px) {
+  .grid .two {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
+  }
+}
+.grid .two div {
+  background: red;
+}
+.grid .three {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+}
+@media screen and (max-width: 425px) {
+  .grid .three {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px;
+    margin: 20px 0px;
+  }
+}
+.grid .three div {
+  background: #000;
+}/*# sourceMappingURL=style.css.map */

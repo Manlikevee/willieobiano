@@ -36,7 +36,7 @@ main {
   height: 100vh;
   @media screen and (max-width: 1024px) {
     background-size: cover;
-    background-position: 90% ;
+    background-position: 90%;
   }
   @media screen and (max-width: 768px) {
     background-image: linear-gradient(
@@ -152,6 +152,7 @@ main {
       img {
         width: 60px;
         height: 60px;
+        border-radius: 50%;
       }
       .info {
         margin: 20px 0px;
@@ -262,11 +263,11 @@ main {
 .sec_twitter {
   .section {
     background-image: linear-gradient(
-      45deg,
-      rgba(36, 34, 34, 0.767),
-      rgba(36, 34, 34, 0.767)
-    ),
-    url(../images/secondBg.png);
+        45deg,
+        rgba(36, 34, 34, 0.767),
+        rgba(36, 34, 34, 0.767)
+      ),
+      url(../images/secondBg.png);
 
     background-size: cover;
     padding: 260px 0px;
@@ -377,26 +378,35 @@ main {
       }
     }
     .bottom {
-      padding: 50px 60px 90px;
+      padding: 50px;
       background: url("../images/Mask\ group\ \(1\).png");
       background-size: contain;
       background-repeat: no-repeat;
       background-position: top left;
-      display: flex;
       justify-content: space-between;
-      @media screen and (max-width: 760px) {
+      @media screen and (max-width: 768px) {
         flex-direction: column;
         text-align: center;
         padding: 20px;
       }
-      img {
-        width: 30%;
-
-        @media screen and (max-width: 760px) {
-          width: 100%;
-          margin: 20px 0px;
+      @media screen and (max-width: 425px) {
+        span.css-901oao.css-16my406.r-poiln3.r-bcqeeo.r-qvutc0 {
+          font-size: 13px;
+          line-height: normal;
         }
       }
+      // div {
+      //   // width: 30%;
+
+      //   .twitter-tweet {
+      //     margin: auto;
+      //   }
+
+      //   @media screen and (max-width: 768px) {
+      //     width: 100%;
+      //     margin: 10px 0px;
+      //   }
+      // }
     }
   }
 }

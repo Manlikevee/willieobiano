@@ -1,6 +1,15 @@
 import React from "react";
+import { useEffect } from "react";
 
 export function Section() {
+    useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://platform.twitter.com/widgets.js";
+    document.getElementsByClassName("twitter-embed")[0].appendChild(script);
+  }, []);
+
+
+
   return (
     <div className="sec_twitter">
       <div className="section">
@@ -27,20 +36,44 @@ export function Section() {
           <a href="#">follow</a>
         </div>
         <div className="bottom">
-          <img
-            src="https://github.com/Cruxcodes/images-repository/blob/main/gb%204.png?raw=true"
-            alt=""
-          />
-          <img
-            src="https://github.com/Cruxcodes/images-repository/blob/main/gb%204.png?raw=true"
-            alt=""
-          />
-          <img
-            src="https://github.com/Cruxcodes/images-repository/blob/main/gb%204.png?raw=true"
-            alt=""
-          />
+          <div className="twitter-embed">
+            <a
+              className="twitter-timeline"
+              // data-theme="dark"
+              data-tweet-limit="5"
+              data-chrome="noheader nofooter noborders"
+              href="https://twitter.com/WillieMObiano?ref_src=twsrc%5Etfw"
+            >
+              Tweets by Willie Obiano
+            </a>
+          </div>
         </div>
       </div>
     </div>
+    // <>
+    // {/* <a
+    //   class="twitter-timeline"
+    //   href="https://twitter.com/WillieMObiano?ref_src=twsrc%5Etfw"
+    // >
+    //   Tweets by WillieMObiano
+    // </a>{" "}
+    // <script
+    //   async
+    //   src="https://platform.twitter.com/widgets.js"
+    //   charset="utf-8"
+    // ></script> */}
+    // {/* </> */}
+
+    // <div className="twitter-embed">
+    //   <a
+    //     className="twitter-timeline"
+    //     // data-theme="dark"
+    //     data-tweet-limit="5"
+    //     data-chrome="noheader nofooter noborders"
+    //     href="https://twitter.com/WillieMObiano?ref_src=twsrc%5Etfw"
+    //   >
+    //     Tweets by HeyMarkKop
+    //   </a>
+    // </div>
   );
 }

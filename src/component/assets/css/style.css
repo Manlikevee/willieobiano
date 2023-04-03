@@ -1305,7 +1305,6 @@ text-align: left;
 .hero {
   padding-top: 40px;
   background-image: url('/assets/images/Rectangle\ 10\ \(1\).png'), url('/assets/images/BG\ \(5\).png');
-
   background-size: cover;
   background-position: center;
   height: 110vh;
