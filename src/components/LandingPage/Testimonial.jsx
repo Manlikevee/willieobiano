@@ -33,7 +33,9 @@ export function Testimonial() {
                 </div>
                 <div class="container person">
                   <div class="infoBody">
-                    <img src={data.image} loading="lazy" alt="" />
+                    {data.image != null && (
+                      <img src={data.image} loading="lazy" alt="" />
+                    )}
                     <div class="info">
                       <p class="name">{data.name}</p>
                       <p class="title">{data.certification}</p>
