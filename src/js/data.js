@@ -1,5 +1,5 @@
 import image from "./download (1).jpeg";
-
+import imageAir from "./images/Anambra-Airport 1 (1).png";
 export const videos = [
   {
     title:
@@ -7,8 +7,7 @@ export const videos = [
     text: "Full commercial flight operations will begin at our new Anambra International Airport on Saturday, October 30, 2021.",
     buttonImg:
       "https://github.com/Cruxcodes/images-repository/blob/main/play%20(2).png?raw=true",
-    image:
-      "https://github.com/Cruxcodes/images-repository/blob/main/Anambra-Airport%201.png?raw=true",
+    image: imageAir,
   },
   {
     title:
@@ -16,8 +15,7 @@ export const videos = [
     text: "Full commercial flight operations will begin at our new Anambra International Airport on Saturday, October 30, 2021.",
     buttonImg:
       "https://github.com/Cruxcodes/images-repository/blob/main/play%20(2).png?raw=true",
-    image:
-      "https://github.com/Cruxcodes/images-repository/blob/main/Anambra-Airport%201.png?raw=true",
+    image: imageAir,
   },
   {
     title:
@@ -25,8 +23,7 @@ export const videos = [
     text: "Full commercial flight operations will begin at our new Anambra International Airport on Saturday, October 30, 2021.",
     buttonImg:
       "https://github.com/Cruxcodes/images-repository/blob/main/play%20(2).png?raw=true",
-    image:
-      "https://github.com/Cruxcodes/images-repository/blob/main/Anambra-Airport%201.png?raw=true",
+    image: imageAir,
   },
   {
     title:
@@ -34,8 +31,7 @@ export const videos = [
     text: "Full commercial flight operations will begin at our new Anambra International Airport on Saturday, October 30, 2021.",
     buttonImg:
       "https://github.com/Cruxcodes/images-repository/blob/main/play%20(2).png?raw=true",
-    image:
-      "https://github.com/Cruxcodes/images-repository/blob/main/Anambra-Airport%201.png?raw=true",
+    image: imageAir,
   },
 ];
 
@@ -51,7 +47,7 @@ export const testimonials = [
   {
     comment:
       "Thank you, Your Excellency. You came and conquered and established your name in gold in the spare of security in Anambra State. May the almighty continue to bless you, sir.",
-    image: null ,
+    image: null,
     name: "General Fage",
     certification: "",
   },

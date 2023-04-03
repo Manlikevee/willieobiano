@@ -264,8 +264,8 @@ main {
   .section {
     background-image: linear-gradient(
         45deg,
-        rgba(36, 34, 34, 0.767),
-        rgba(36, 34, 34, 0.767)
+        rgba(36, 34, 34, 0.616),
+        rgba(36, 34, 34, 0.644)
       ),
       url(../images/secondBg.png);
 
@@ -276,13 +276,6 @@ main {
     color: white;
     margin-bottom: 40px;
     @media screen and (max-width: 768px) {
-      background-image: linear-gradient(
-          45deg,
-          rgba(36, 34, 34, 0.767),
-          rgba(36, 34, 34, 0.767)
-        ),
-        url(../images/secondBg.png);
-
       background-position: 10%;
     }
     @media screen and (max-width: 500px) {
