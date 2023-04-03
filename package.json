@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@ionic/core": "^6.7.1",
     "@ionic/react": "^6.7.1",
     "gatsby": "^5.8.0",
