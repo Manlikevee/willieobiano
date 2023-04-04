@@ -18,7 +18,7 @@ const Contactus = () => {
       .then(
         (result) => {
           console.log(result.text);
-          alert('Submitted')
+          alert("Submitted");
           form.current.reset();
         },
         (error) => {
@@ -81,8 +81,8 @@ const Contactus = () => {
                 </div>
                 <div className="skills-wrapper">
                   <div className="formcontent">
-                    <label htmlFor="">Event Date</label>
-                    <input type="text" name="event_date" />
+                    <label htmlFor="date">Event Date</label>
+                    <input type="date" id="date" min="2023-04-04" name="event_date" style={{outline:'none'}}></input>
                   </div>
                   <div className="formcontent">
                     <label htmlFor="">Will Media be present?</label>
