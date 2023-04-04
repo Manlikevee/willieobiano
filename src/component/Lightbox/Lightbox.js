@@ -10,6 +10,12 @@ import myImage7 from './images/4.jpg';
 import myImage8 from './images/5.jpg';
 import myImage9 from './images/6.jpg';
 import myImage10 from './images/New folder/4.jpg';
+import myImagew1 from './images/W2.jpeg';
+import myImagew2 from './images/W3.jpeg';
+import myImagew3 from './images/W6.jpeg';
+import myImagew4 from './images/W5.jpeg';
+import myImagew5 from './images/W7.jpeg';
+import myImagew7 from './images/W1.jpeg';
 import myImage11 from './images/7.jpg';
 import myImage12 from './images/8.jpg';
 import myImage13 from './images/9.jpg';
@@ -207,7 +213,22 @@ function Lightbox() {
             </div>
           </div> 
 
-     
+          <div className="image-box">
+            <img
+              className="gImg"
+              src={myImagew1}
+              alt=""
+              onClick={() => handleImgClick(myImage8, "Willie Obiano")}
+            />
+            <div className="logo_icons">
+              <a href="#">
+                <img className="logoImg" src={myImagew1} alt="" />
+                <div className="text_content">
+                  <span className="name">Willie Obiano</span>
+                </div>
+              </a>
+            </div>
+          </div>
 
           <div className="image-box">
             <img
@@ -225,7 +246,40 @@ function Lightbox() {
               </a>
             </div>
           </div>
-        
+          <div className="image-box">
+            <img
+              className="gImg"
+              src={myImagew1}
+              alt=""
+              onClick={() => handleImgClick(myImage8, "Willie Obiano")}
+            />
+            <div className="logo_icons">
+              <a href="#">
+                <img className="logoImg" src={myImagew1} alt="" />
+                <div className="text_content">
+                  <span className="name">Willie Obiano</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="image-box">
+            <img
+              className="gImg"
+              src={myImagew2}
+              alt=""
+              onClick={() => handleImgClick(myImage8, "Willie Obiano")}
+            />
+            <div className="logo_icons">
+              <a href="#">
+                <img className="logoImg" src={myImagew2} alt="" />
+                <div className="text_content">
+                  <span className="name">Willie Obiano</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
           <div className="image-box">
             <img
               className="gImg"
@@ -277,6 +331,42 @@ function Lightbox() {
               </a>
             </div>
           </div>
+
+          <div className="image-box">
+            <img
+              className="gImg"
+              src={myImagew3}
+              alt=""
+              onClick={() => handleImgClick(myImage8, "Willie Obiano")}
+            />
+            <div className="logo_icons">
+              <a href="#">
+                <img className="logoImg" src={myImagew3} alt="" />
+                <div className="text_content">
+                  <span className="name">Willie Obiano</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="image-box">
+            <img
+              className="gImg"
+              src={myImagew4}
+              alt=""
+              onClick={() => handleImgClick(myImage8, "Willie Obiano")}
+            />
+            <div className="logo_icons">
+              <a href="#">
+                <img className="logoImg" src={myImagew4} alt="" />
+                <div className="text_content">
+                  <span className="name">Willie Obiano</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+
           <div className="image-box">
             <img
               className="gImg"
@@ -381,6 +471,9 @@ function Lightbox() {
             </div>
           </div>
 
+  
+
+
           <div className="image-box">
             <img
               className="gImg"
@@ -397,7 +490,22 @@ function Lightbox() {
               </a>
             </div>
           </div>
-
+          <div className="image-box">
+            <img
+              className="gImg"
+              src={myImagew5}
+              alt=""
+              onClick={() => handleImgClick(myImage8, "Willie Obiano")}
+            />
+            <div className="logo_icons">
+              <a href="#">
+                <img className="logoImg" src={myImagew5} alt="" />
+                <div className="text_content">
+                  <span className="name">Willie Obiano</span>
+                </div>
+              </a>
+            </div>
+          </div>
 
         </div>
       </div>
