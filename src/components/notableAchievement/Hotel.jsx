@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import Lightbox from "react-lightbox-component";
+
 
 import imageOne from "./images/Rectangle 100.png";
 import imageTwo from "./images/Rectangle 103 (1).png";
