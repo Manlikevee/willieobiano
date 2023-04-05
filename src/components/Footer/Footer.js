@@ -1,6 +1,6 @@
 import React from 'react'
 import myImage from "./images/willie.png"
-
+import { Link } from "gatsby"
 
 const Footer = () => {
   return (
@@ -34,37 +34,34 @@ const Footer = () => {
       <li>
         <div className="flexlink">
           <div className="ftwo">
-            <a href="">About Obiano</a>
-            <a href="">Achievements</a>
+          <Link to="/Biography">Biography</Link>
+          <Link to="/Notable">Notable Achievements</Link>
           </div>
           <div className="ftwo">
-            <a href="">Gallery</a>
-            <a href="">Contact</a>
+          <Link to="/Gallery">Gallery</Link>
+          <Link to="/Contactus">Contact</Link>
           </div>
         </div>
       </li>
     </ul>
     <ul className="social-list">
       <li>
-        <a href="#" className="social-link">
-          <ion-icon  className="logo-dribbble" />
+        <a href="https://twitter.com/williemobiano?lang=en" className="social-link">
+          <ion-icon  name="logo-twitter" />
+        </a>
+      </li>
+     
+      <li>
+        <a href="https://www.instagram.com/williemobiano/" className="social-link">
+          <ion-icon  name="logo-instagram" />
         </a>
       </li>
       <li>
-        <a href="#" className="social-link">
-          <ion-icon  className="logo-instagram" />
+        <a href="https://www.facebook.com/WillieObiano/" className="social-link">
+          <ion-icon  name="logo-facebook" />
         </a>
       </li>
-      <li>
-        <a href="#" className="social-link">
-          <ion-icon  className="logo-skype" />
-        </a>
-      </li>
-      <li>
-        <a href="#" className="social-link">
-          <ion-icon name="logo-linkedin" />
-        </a>
-      </li>
+
     </ul>
   </div>
   <div className="willyobianofooter container">

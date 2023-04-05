@@ -1,7 +1,7 @@
 import React from 'react'
 import myImage from "./images/willie.png"
 import { Helmet } from "react-helmet";
-
+import { Link } from "gatsby"
 const Footer = () => {
   return (
 
@@ -40,14 +40,14 @@ const Footer = () => {
         <p className="h4 footer-list-title">Quick Links</p>
       </li>
       <li>
-        <div className="flexlink">
+      <div className="flexlink">
           <div className="ftwo">
-            <a href="">About Obiano</a>
-            <a href="">Achievements</a>
+          <Link to="/Biography">Biography</Link>
+          <Link to="/Notable">Notable Achievements</Link>
           </div>
           <div className="ftwo">
-            <a href="">Gallery</a>
-            <a href="">Contact</a>
+          <Link to="/Gallery">Gallery</Link>
+          <Link to="/Contactus">Contact</Link>
           </div>
         </div>
       </li>

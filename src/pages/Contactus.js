@@ -37,9 +37,9 @@ const Contactus = () => {
           <div className="contactusflex">
             <div className="contactfleximage">
               <p>
-                It is only when we take chances, when our lives improve. The
+                {/* It is only when we take chances, when our lives improve. The
                 initial and the most difficult risk that we need to take is to
-                become honest.
+                become honest. */}
               </p>
             </div>
             <div className="contactflexform">
