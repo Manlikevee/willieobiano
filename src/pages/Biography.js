@@ -9,8 +9,7 @@ const Biography = () => {
 <>
 
 <Helmet>
-    <meta name="description" content="Willie Obiano - A Visionary Leader Committed to Progress and Innovation.
-Inspiring hope and confidence in the future of Nigeria with bold ideas and decisive action. Leading with purpose, passion, and dedication: The inspiring leadership of Willie Obiano" />
+    <meta name="description" content="Willie Obiano is from Aguleri, a rural community in the Anambra river valley. It is the largest town in the area and the headquarters of Anambra East Local Council. His parents, Philip and Christiana, are both Catholics and from the same town. Philip, a catechist, was also a teacher, who taught in schools across Igboland." />
       <meta name="keywords" content="Willie Obiano,
 Aguleri,
 Anambra State,
@@ -24,15 +23,17 @@ Anambra State Oxygen Production Plant,
 International Conference Center Awka,
 Anambra Health insurance Agency,
 Willie Maduabuchukwu Obiano,
+Willie Maduabuchukwu Obiano early life,
+Willie Maduabuchukwu Obiano educational background,
+Willie Maduabuchukwu Obiano public service,
 Umueri Cargo Airport,
 Peter Obi,
 Akpokuedike,
 Anambra State Social Identity Number,
 ANSSID" />
 
-      <meta property="og:title" content="Willie Obiano -Biography Page" />
-      <meta property="og:description" content="Willie Obiano - A Visionary Leader Committed to Progress and Innovation.
-Inspiring hope and confidence in the future of Nigeria with bold ideas and decisive action. Leading with purpose, passion, and dedication: The inspiring leadership of Willie Obiano" />
+      <meta property="og:title" content="Willie Obiano - Biography Page" />
+      <meta property="og:description" content="Willie Obiano is from Aguleri, a rural community in the Anambra river valley. It is the largest town in the area and the headquarters of Anambra East Local Council. His parents, Philip and Christiana, are both Catholics and from the same town. Philip, a catechist, was also a teacher, who taught in schools across Igboland." />
  
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
