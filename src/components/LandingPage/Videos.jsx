@@ -22,9 +22,11 @@ export function Videos() {
         modules={[Navigation]}
       >
         <div className="blur"></div>
-        {videos.map((data) => {
-          return (
-            <SwiperSlide>
+        <div className="blur2"></div>
+        
+        {videos.map((data, index) => {
+          return ( 
+            <SwiperSlide key={index}>
               <Video {...data} />
             </SwiperSlide>
           );
