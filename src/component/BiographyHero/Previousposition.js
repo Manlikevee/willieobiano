@@ -14,6 +14,9 @@ import Biographyslides from './Biographyslides'
 const Previousposition = () => {
   return (
     <div>
+      <br />
+      <br />
+      <br />
 <section className="slidefrombottom">
   <div className="container">
     <h2 className="herosub-title h2 han">Previous &amp; current positions</h2>
