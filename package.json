@@ -28,7 +28,7 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-lightbox-component": "^1.2.1",
-    "react-scroll": "^1.8.9",
+    "react-modal": "^3.16.1",
     "react-use-scroll-snap": "^0.0.4",
     "react-youtube": "^10.1.0",
     "swiper": "^9.1.1"
