@@ -53,7 +53,7 @@ function Video({ image, buttonImg, title, text,video }) {
       </Modal>
       <div className="video">
         <div className="img">
-          <img src={image} alt="" />
+          <img src={image} alt="" onClick={openModal} />
           <a href="javascript:void(0)" onClick={openModal}>
             <img className="playButton" src={buttonImg} alt="" />
           </a>

@@ -287,7 +287,9 @@ main {
   text-align: end;
   padding: 0px !important;
 }
-
+.ReactModal__Content{
+  padding: 10px !important;
+}
 .closeButton {
   background: rgba(26, 26, 26, 0.555);
   right: 0px;
@@ -307,11 +309,10 @@ main {
 
   @media screen and (max-width: 1024px) {
     width: 768px;
-    height: 500px;
+    height: 400px;
   }
   @media screen and (max-width: 800px) {
     width: 550px;
-    height: 500px;
   }
   @media screen and (max-width: 580px) {
     width: 320px;
