@@ -1,15 +1,9 @@
-import React from 'react'
-import ScrollBottomButton from '../Scrollbottombutton/ScrollBottomButton'
-
-const Biographysplashpage = () => {
-  return (
-    <section className="section hero myhero" aria-label="home">
-    <div className="container">
+   <div className="container">
       <div className="hero-content">
         <div className="flexsectionone">
-         
-        <span className="section-subtitle">Chief</span>
-          <h1 className="h1 hero-title myherotitle">Willie Maduaburochukwu Obiano</h1>
+        Chief Willie Maduaburochukwu Obiano
+
+          <h1 className="h1 hero-title">Willie Obiano</h1>
           <br />
           <span className="section-subtitle">The</span>
           <h1 className="h2 herosub-title">Ukwuoma Kpolu</h1>
@@ -23,9 +17,3 @@ const Biographysplashpage = () => {
 
       <ScrollBottomButton />
     </div>
-  </section>
-  
-  )
-}
-
-export default Biographysplashpage

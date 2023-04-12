@@ -1853,6 +1853,37 @@ section .image-gallery .text_content .followers {
   top: auto;
 }
 
+.myherotitle{
+  font-size: 5rem !important;
+}
+h1.h1.hero-title.myherotitle {
+  line-height: 1.1;
+}
+
+
+@media screen and (max-width:650px) {
+  .myherotitle{
+    font-size: 4rem !important;
+  }
+  
+}
+
+
+
+@media screen and (max-width:450px) {
+  .myherotitle{
+    font-size: 3rem !important;
+  }
+  
+}
+@media screen and (max-width:350px) {
+  .myherotitle{
+    font-size: 2rem !important;
+  }
+  
+}
+
+
 .horizontal-scroll-section {
   position: relative;
   min-height: 100vh;

@@ -14,7 +14,7 @@ const Publicsector = () => {
       <h2 className="h2 section-title">Public Service</h2>
     </div>
     <p className="section-text">
-    The leadership of Willie Obiano made notable strides in delivering public services that enhanced the quality of life for residents of Anambra State. His work helped the state expand and prosper while also creating a strong foundation for further expansion.
+    The leadership of Chief Willie Maduaburochukwu Obiano made notable strides in delivering public services that enhanced the quality of life for residents of Anambra State. His work helped the state expand and prosper while also creating a strong foundation for further expansion.
     </p>
   </div>
 
